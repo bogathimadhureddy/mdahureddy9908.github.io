@@ -1,54 +1,3 @@
-# mdahureddy9908.github.io
-The Navie Bayes Algorithm is based on the Bayes Theorem of Probability.
-
-
-| Feature        | Description                                    | Type                            | Relevance  |
-| -------------- | ---------------------------------------------- | ------------------------------- | ---------- |
-| age            | The age of the person                          | Continuous, Ratio               | Relevant   |
-| education      | The education of the standard                  | Discrete, Categorical, Ordinal  | Relevant   |
-| educationno    | The education number given for class           | Discrete, Categorical, Ordinal  | Relevant   |
-| maritalstatus  | Material Status                                | Discrete, Categorical, Nominal  | Relevant   |
-| occupation     | The person's occupation                        | Discrete, Categorical, Nominal (Here the occupation within an organization is considered as Ordinal Data but here it is different organizations) | Relevant   |
-| relationship   | Closely related person like wife or husband    | Discrete, Categorical, Nominal  | Relevant   |
-| race           | Race (ex: black or white)                      | Discrete, Categorical, Nominal  | Relevant   |
-| sex            | Gender (male or female)                        | Discrete, Categorical, Nominal  | Relevant   |
-| capitalgain    | Gain in a year                                  | Continuous, Ratio               | Relevant   |
-| capitalloss    | Loss of money in a year                        | Continuous, Ratio               | Relevant   |
-| hoursperweek   | Number of hours working in a week              | Continuous, Ratio               | Relevant   |
-| native         | Negative place of a person                    | Discrete, Categorical, Nominal  | Relevant   |
-| Salary         | Salary above 50K or below 50K                 | Discrete, Categorical, Ordinal  | Relevant   |
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            background-color: #f8f9fa; /* Set the background color */
-            font-family: 'Courier New', monospace; /* Use a monospaced font for code */
-            margin: 20px; /* Add some margin for readability */
-            padding: 20px; /* Add padding for readability */
-        }
-
-        code {
-            display: block;
-            background-color: #f4f4f4; /* Set the code block background color */
-            padding: 10px; /* Add padding for readability */
-            border-radius: 5px; /* Add rounded corners for aesthetics */
-            overflow-x: auto; /* Enable horizontal scrolling for long lines of code */
-            font-size: 14px; /* Adjust font size as needed */
-            line-height: 1.5; /* Adjust line height for readability */
-        }
-    </style>
-    <title>GitHub Pages with Styled Python Code</title>
-</head>
-<body>
-
-<h1>Python Code Showcase</h1>
-
-<code>
 import os
 os.chdir(r'C:\Users\madhu\OneDrive\Desktop\360 DigiTMG\DataScience\ASSIGNMENTS SOLVED BY ME\Naive Bayes') # changing the working directory.
 
@@ -250,9 +199,3 @@ cmplot = metrics.ConfusionMatrixDisplay(confusion_matrix = cm, display_labels = 
 cmplot.plot()
 cmplot.ax_.set(title = 'Salary Detection Confusion Matrix', 
                xlabel = 'Predicted Value', ylabel = 'Actual Value')
-
-
-</code>
-
-</body>
-</html>
